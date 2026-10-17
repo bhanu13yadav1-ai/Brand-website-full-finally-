@@ -1,29 +1,52 @@
-Images attached in this conversation copied into assets/:
-boyfriend-cafe-scene-01.png
-boyfriend-cafe-scene-02.png
-boyfriend-cafe-scene-03.png
-boyfriend-cafe-scene-04.png
-boyfriend-cafe-scene-05.png
-boyfriend-cafe-scene-06.png
-boyfriend-cafe-scene-07.png
-sanskari-edit-campaign.png
-wellness-accessories-flatlay-pink.jpg
-wellness-adult-product-warning-reference.jpg
-wellness-campaign-model-white-plush-detail.jpg
-wellness-campaign-model-white-plush.jpg
-wellness-campaign-model-yellow-plush-detail.jpg
-wellness-campaign-model-yellow-plush.jpg
-wellness-comfort-plush-campaign.jpg
-wellness-comfort-plush-detail.jpg
-wellness-plug-gem-pink-detail.jpg
-wellness-plug-gem-pink.jpg
-wellness-plug-gems-detail.jpg
-wellness-plug-gems-set.jpg
-wellness-plug-heart-red-detail-duplicate.jpg
-wellness-plug-heart-red-detail.jpg
-wellness-plug-heart-red.jpg
-wellness-product-colorful-range.jpg
-wellness-product-purple-pink-detail-duplicate.jpg
-wellness-product-purple-pink-detail.jpg
-wellness-product-purple-pink.jpg
-wellness-products-dark-flatlay.jpg
+BLACKED FINAL FUSION — ASSET MANIFEST
+
+All local images are kept in assets/ with descriptive filenames. Some are duplicate angles/detail variations from the supplied project/chat image library; duplicates are preserved for the user.
+
+Newly supplied image files included:
+- wellness-plug-heart-ruby.jpg
+- adult-product-colour-range-watermarked.jpg
+- wellness-purple-pink-product-poster.png
+- wellness-dual-massager-boxed.jpg
+- wellness-product-range-dark-campaign.jpg
+- wellness-pink-cuffs-editorial.jpg
+- wellness-explicit-packaging-reference-18plus.jpg
+- wellness-pink-device-supplier-claims-unverified.jpg
+- wellness-accessories-pastel-flatlay-new.jpg
+- wellness-pink-device-animated.gif
+
+Existing supplied campaign / product references retained:
+- boyfriend-cafe-scene-01.png
+- boyfriend-cafe-scene-02.png
+- boyfriend-cafe-scene-03.png
+- boyfriend-cafe-scene-04.png
+- boyfriend-cafe-scene-05.png
+- boyfriend-cafe-scene-06.png
+- boyfriend-cafe-scene-07.png
+- sanskari-edit-campaign.png
+- wellness-accessories-flatlay-pink.jpg
+- wellness-adult-product-warning-reference.jpg
+- wellness-campaign-model-white-plush-detail.jpg
+- wellness-campaign-model-white-plush.jpg
+- wellness-campaign-model-yellow-plush-detail.jpg
+- wellness-campaign-model-yellow-plush.jpg
+- wellness-comfort-plush-campaign.jpg
+- wellness-comfort-plush-detail.jpg
+- wellness-plug-gem-pink-detail.jpg
+- wellness-plug-gem-pink.jpg
+- wellness-plug-gems-detail.jpg
+- wellness-plug-gems-set.jpg
+- wellness-plug-heart-red-detail-duplicate.jpg
+- wellness-plug-heart-red-detail.jpg
+- wellness-plug-heart-red.jpg
+- wellness-product-colorful-range.jpg
+- wellness-product-purple-pink-detail-duplicate.jpg
+- wellness-product-purple-pink-detail.jpg
+- wellness-product-purple-pink.jpg
+- wellness-products-dark-flatlay.jpg
+
+The eight-angle viewer loads public concept frames from Brand-website-3 on GitHub with a local campaign fallback; it is a concept demo, not real 360° product photography.
+
+
+Additional reused original catalog media (served from public source repositories):
+Brand-website-3 main branch: ref-01 through ref-10, design-11 through design-14, owner-ref-* campaign/design references, 360-demo-01 through 360-demo-08.
+Brand-website-2 main branch: wand-360-frame-01 through wand-360-frame-09.
