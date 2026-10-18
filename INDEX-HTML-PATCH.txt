@@ -1,0 +1,24 @@
+BLACKED FUSION 4.1 — APPLY THIS SMALL PATCH TO THE EXISTING index.html
+
+This is intentionally a delta, not a full replacement index.html. Preserve the current Fusion 4.0 index.html, app.js and styles.css.
+
+1) FIX THE SIX EXISTING ROOT-IMAGE PATHS
+Use GitHub's editor Find/Replace if available, or edit each matching src exactly:
+- src="assets/hero-model-crop.webp"   -> src="./hero-model-crop.webp"
+- src="assets/sanskari-raat.webp"    -> src="./sanskari-raat.webp"
+- src="assets/sanskari-ankhein.webp" -> src="./sanskari-ankhein.webp"
+- src="assets/sanskari-mirror.webp"  -> src="./sanskari-mirror.webp"
+- src="assets/sanskari-entry.webp"   -> src="./sanskari-entry.webp"
+- src="assets/sanskari-pallu.webp"   -> src="./sanskari-pallu.webp"
+These six original files exist at the repository root, not inside an assets/ folder. Do not change paths that start with assets/new-gallery/ or assets/new-wellness/.
+
+2) LOAD THE ADD-ON CSS
+Inside <head>, immediately after the existing <link rel="stylesheet" href="styles.css"> line, add:
+<link rel="stylesheet" href="./fusion4-addons.css" data-blacked-fusion-addon="4.1">
+
+3) LOAD THE ADD-ON JS BEFORE THE CURRENT APP
+Immediately before the existing <script src="app.js" defer></script> line, add:
+<script src="./fusion4-addons.js" defer data-blacked-fusion-addon="4.1"></script>
+Loading this first lets the image paths be corrected before the original app adds its fallback handlers. The add-on also registers the repaired sw.js.
+
+Then follow README-DELTA.md to upload/replace the other files. Commit all changes together. Do not replace or remove any existing repo files except sw.js, which this delta replaces.

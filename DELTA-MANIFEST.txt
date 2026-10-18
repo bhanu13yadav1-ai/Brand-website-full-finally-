@@ -1,0 +1,36 @@
+BLACKED FUSION 4.1 DELTA MANIFEST
+
+REPLACE (1 existing root file):
+- sw.js
+
+ADD AT ROOT (2 files):
+- fusion4-addons.js
+- fusion4-addons.css
+
+ADD NEW FOLDERS (24 image assets):
+- assets/new-gallery/sanskari-black-lace-alt.webp
+- assets/new-gallery/sanskari-campaign-black.webp
+- assets/new-gallery/sanskari-campaign-blue.webp
+- assets/new-gallery/sanskari-campaign-burgundy.webp
+- assets/new-gallery/sanskari-campaign-entry.webp
+- assets/new-gallery/sanskari-campaign-gold.webp
+- assets/new-gallery/sanskari-campaign-sheer.webp
+- assets/new-gallery/sanskari-campaign-wide.webp
+- assets/new-gallery/sanskari-editorial-black.webp
+- assets/new-gallery/sanskari-mirror-edit.webp
+- assets/new-wellness/animated-product.gif
+- assets/new-wellness/dark-product-flatlay.webp
+- assets/new-wellness/dual-massager-box.webp
+- assets/new-wellness/pink-accessories-flatlay.webp
+- assets/new-wellness/pink-cuffs-editorial.webp
+- assets/new-wellness/plush-campaign-pink.webp
+- assets/new-wellness/plush-campaign-white.webp
+- assets/new-wellness/plush-campaign-yellow.webp
+- assets/new-wellness/product-warning-reference.webp
+- assets/new-wellness/purple-pink-product.webp
+- assets/new-wellness/red-heart-closeup.webp
+- assets/new-wellness/silver-gems.webp
+- assets/new-wellness/silver-heart.webp
+- assets/new-wellness/silver-pink-gem.webp
+
+DO NOT REUPLOAD OR DELETE existing `index.html`, `app.js`, `styles.css`, manifest, original root images, or any existing features.

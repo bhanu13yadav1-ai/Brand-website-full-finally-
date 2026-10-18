@@ -1,2 +1,38 @@
-Self-contained image audit: 46 image assets embedded; static IMG sources converted: 22; unmapped static IMG sources: 0; remote image URLs: 0; inline script blocks: 3.
-Static IMG src values are embedded data URIs, except dynamic template sources handled by imgSrc(). Live GitHub Pages testing not available from this build step.
+{
+  "release": "Fusion 4.1 non-destructive delta for current Fusion 4.0 base",
+  "existing_root_files_replaced": [
+    "sw.js"
+  ],
+  "new_root_files": [
+    "fusion4-addons.js",
+    "fusion4-addons.css"
+  ],
+  "index_html_changes_provided_as_patch": "INDEX-HTML-PATCH.txt (6 root image paths + add-on CSS/JS tags)",
+  "new_sanskari_gallery_images": 10,
+  "sanskari_source": "separate crops of the project-generated preview contact sheet; original individual source files were not mounted",
+  "new_wellness_gallery_images": 14,
+  "root_path_fallback": "PASS",
+  "navigation_addon_injection": "PASS",
+  "node_addon_js": "PASS",
+  "node_service_worker_js": "PASS",
+  "css_parse": "PASS",
+  "all_new_raster_images_decode": "PASS",
+  "missing_new_gallery_assets": [],
+  "manual_index_patch": "PASS: index change snippet is included with exact insertion/replacement instructions",
+  "zip_integrity": "PASS",
+  "live_pages_or_android_browser_test": "not run; connector is read-only and browser navigation is restricted",
+  "preserved_files": [
+    "index.html",
+    "app.js",
+    "styles.css",
+    "manifest.webmanifest",
+    "all existing root images"
+  ],
+  "important_limits": [
+    "Wellness images are references only; products/prices/claims are not verified.",
+    "Wheel rewards remain mock demo rewards, not redeemable discounts.",
+    "Private fantasy prompts remain a local UI, not encrypted storage."
+  ],
+  "zip_file_count": 31,
+  "zip_bytes": 630691
+}
