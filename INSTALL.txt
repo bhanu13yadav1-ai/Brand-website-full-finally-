@@ -1,0 +1,15 @@
+BLACKED VNext — DELTA UPDATE (only new files)
+
+1. Back up your existing index.html before changing anything.
+2. Copy the ZIP's assets folder into the same root folder as index.html.
+3. Inside <head> in index.html, add:
+   <link rel="stylesheet" href="campaign-gallery.css">
+4. Immediately before </body>, add:
+   <script src="campaign-gallery.js" defer></script>
+5. Upload the new assets folder, campaign-gallery.css, campaign-gallery.js and modified index.html together.
+6. Test Home, Sanskari Edit and Plus-One Club on Android. Keep all old files/features.
+
+New gallery: black-gold, emerald-gold, black-lace and plum-lace campaign references.
+Plus-One copy is cheeky Hindi/Hinglish with 18+ and consent framing.
+The new gallery uses local images, lazy loading, async decoding, and fallback tiles.
+This patch does not automatically replace every external image in the original site; those URLs still need an asset-by-asset audit. Browser testing against the live site was not available here, so this is a checked delta patch, not a guarantee that every existing site bug is fixed.
